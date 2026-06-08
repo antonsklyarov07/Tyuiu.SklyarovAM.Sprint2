@@ -37,7 +37,7 @@ namespace Tyuiu.SklyarovAM.Sprint2.Task0.V8
             Console.WriteLine("X = " + x);
             Console.WriteLine("Y = " + y);
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
+            Console.WriteLine("* РЕЗУЛЬТАТ :                                                              *");
             Console.WriteLine("***************************************************************************");
             for (int i = 0; i < res.Length; i++)
             {
