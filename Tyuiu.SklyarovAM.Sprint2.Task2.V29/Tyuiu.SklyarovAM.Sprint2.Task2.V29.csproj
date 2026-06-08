@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{83F94A3C-E820-4D2F-AF8C-5E9725DE3372}</ProjectGuid>
+    <ProjectGuid>{B841CA35-FFEB-43A3-90B4-6AC7C89CBC37}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tyuii</RootNamespace>
-    <AssemblyName>Tyuii</AssemblyName>
+    <RootNamespace>Tyuiu.SklyarovAM.Sprint2.Task2.V29</RootNamespace>
+    <AssemblyName>Tyuiu.SklyarovAM.Sprint2.Task2.V29</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -48,6 +48,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.SklyarovAM.Sprint2.Task2.V29.Lib\Tyuiu.SklyarovAM.Sprint2.Task2.V29.Lib.csproj">
+      <Project>{83ed5893-ffb9-4441-a1c9-2d42f7bb2683}</Project>
+      <Name>Tyuiu.SklyarovAM.Sprint2.Task2.V29.Lib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
